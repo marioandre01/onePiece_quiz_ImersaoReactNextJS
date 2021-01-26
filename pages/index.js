@@ -51,7 +51,7 @@ export default function Home() {
         </Widget>
         <Footer />
       </QuizContainer>  
-      <GitHubCorner projectUrl="https://github.com/marioandre01" />  
+      <GitHubCorner projectUrl="https://github.com/marioandre01/onePiece_quiz_ImersaoReactNextJS" />  
     </QuizBackground>
     
   )  
