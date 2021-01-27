@@ -8,6 +8,15 @@ const QuizBackground = styled.div`
   background-image: url(${({ backgroundImage }) => backgroundImage});
   background-color: ${({ theme }) => theme.colors.mainBg};
   flex: 1;
+  .name-player {
+    font-size: 1.3rem;
+  }
+  .link-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
 
   /* -- Responsividade -- */
   @media screen and (max-width: 500px) {

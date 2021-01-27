@@ -1,13 +1,10 @@
-  
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const Widget = styled.div`
   margin-top: 24px;
   margin-bottom: 24px;
   border: 1px solid ${({ theme }) => theme.colors.contrastText};
-  background-color: ${({ theme }) => {
-    return theme.colors.mainBg;
-  }};
+  background-color: ${({ theme }) => theme.colors.mainBg};
   border-radius: 5px;
   overflow: hidden;
   h1, h2, h3 {
@@ -58,19 +55,31 @@ Widget.Content = styled.div`
     border: 1px solid ${({ theme }) => theme.colors.primary};
     height: 2rem;
     padding-left: 10px;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
     color: ${({ theme }) => theme.colors.contrastText}
     
   }
-  a {
-    display: block;
-    background: ${({ theme }) => theme.colors.gitHubConerColor};
-    border-radius: 5px;
-    color: #fff;
+  .input-quiz-users {
+    margin-bottom: 0.5rem;
+    background: #272a52;
+  }
+  button:disabled {   
+    background: #cccccc;    
+    color: #666666;      
+  }
+  button {
     width: 100%;
+    background: ${({ theme }) => theme.colors.gitHubConerColor};
     text-align: center;
     text-decoration: none;
-    padding: 5px 0;
+    padding: 10px 0;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    /* border: 1px solid #999999; */
+    cursor: pointer;
+    transition: 0.3s;
   }
 `;
 

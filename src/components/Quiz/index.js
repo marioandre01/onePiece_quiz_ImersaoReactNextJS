@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import Link from 'next/link'
+import styled from 'styled-components';
+import Link from 'next/link';
 
 // src/components/Footer/index.js
 const QuizWrapper = styled.div`
@@ -18,10 +18,10 @@ const QuizWrapper = styled.div`
 export default function Quiz() {
   return (
     <QuizWrapper>
-      <h1>Em breve...</h1>
-        <Link href="/">
-            <a>Voltar</a>
-        </Link>  
+      {/* // <h1>Em breve...</h1> */}
+      <Link href="/">
+        <a>Voltar</a>
+      </Link>
     </QuizWrapper>
   );
 }

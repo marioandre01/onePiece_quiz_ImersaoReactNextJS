@@ -1,6 +1,6 @@
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
-import IndexPage from '../src/components/IndexPage'
-import db from '../db.json'
+import { createGlobalStyle, ThemeProvider } from 'styled-components';
+import IndexPage from '../src/components/IndexPage';
+import db from '../db.json';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -24,17 +24,17 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
   }
-`
-const theme = db.theme;
+`;
+const { theme } = db;
 
 export default function App({ Component, pageProps }) {
   return (
-    <> 
+    <>
       <IndexPage />
       <ThemeProvider theme={theme}>
         <GlobalStyle />
         <Component {...pageProps} />
       </ThemeProvider>
     </>
-  )
+  );
 }
