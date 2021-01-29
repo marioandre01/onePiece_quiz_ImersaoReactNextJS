@@ -1,6 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
-import Link from 'next/link';
+// import styled from 'styled-components';
+// import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 import db from '../db.json';
@@ -10,11 +10,13 @@ import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import QuizLogo from '../src/components/QuizLogo';
 import QuizContainer from '../src/components/QuizContainer';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 
 export default function Home() {
   const router = useRouter();
   const [name, setName] = React.useState('');
-  console.log('retorno do useState', name, setName);
+  // console.log('retorno do useState', name, setName);
 
   return (
     <QuizBackground backgroundImage={db.bg}>
@@ -37,18 +39,16 @@ export default function Home() {
               // console.log('Fazendo uma submissão por meio do react');
             }}
             >
-              <input
-                onChange={function (infoDoEvento) {
-                  // console.log(infoDoEvento.target.value);
-                  // name = infoDoEvento.target.value;
-                  setName(infoDoEvento.target.value);
-                }}
-                placeholder="Digite seu nome para jogar :)" 
+              <Input
+                name="nomeDoUsuario"
+                onChange={(infoDoEvento) => setName(infoDoEvento.target.value)}
+                placeholder="Digite seu nome para jogar :)"
+                value={name}
               />
               {/* <p>{name}</p> */}
-              <button type="submit" disabled={name.length === 0}>
+              <Button type="submit" disabled={name.length === 0}>
                 JOGAR
-              </button>
+              </Button>
             </form>
           </Widget.Content>
 
@@ -58,9 +58,9 @@ export default function Home() {
           <Widget.Content>
             <h2>Quizes da galera</h2>
             <p>Dá uma olhada nesses quizes incriveis que o pessoal da Imersão React Next.JS da Alura fez:</p>
-            <input className="input-quiz-users" value="luffy/quizCarne"/>
-            <input className="input-quiz-users" value="zoro/quizEspadachim"/>
-            <input className="input-quiz-users" value="sanji/quizNami"/>
+            <Input className="input-quiz-users" value="luffy/quizCarne"/>
+            <Input className="input-quiz-users" value="zoro/quizEspadachim"/>
+            <Input className="input-quiz-users" value="sanji/quizNami"/>
           </Widget.Content>
 
         </Widget>

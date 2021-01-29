@@ -4,25 +4,68 @@
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
+        "bg": "https://www.themoviedb.org/t/p/original/npg6pCyEYcCS6Ok9fbiIdcA60lH.jpg",
+        "image": "https://media.giphy.com/media/uvCxJCIdf1BcY/giphy.gif",
+        "title": "Quantos membros os Chapéu de Palha tem na tripulação na saga de Wano?",
         "description": "Essa é pra aquecer",
         "answer": 2,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "5",
+          "9",
+          "6",
+          "10"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "bg": "https://images3.alphacoders.com/656/thumb-1920-656739.jpg",
+        "image": "https://media.giphy.com/media/t7UA6Mg6peVfq/giphy.gif",
+        "title": "Qual a comida favorita do Luffy?",
+        "description": "Esquentando um pouco",
+        "answer": 2,
+        "alternatives": [
+          "Arroz",
+          "Carne",
+          "Frango",
+          "Batata"
+        ]
+      },
+      {
+        "bg": "https://i1.wp.com/oportaln10.com.br/jerimumgeek/wp-content/uploads/2017/11/4549727-9428699169-one_p.png?resize=1280%2C720&ssl=1",
+        "image": "https://media.giphy.com/media/OP7zcogHWFCuI/giphy.gif",
+        "title": "O sonho de Zoro é se tornar o espadachim mais forte do mundo. Para isso ele tem como objetivo derrotar o mais forte espadachim do mundo atual. Qual é o nome desse espadachim?",
+        "description": "Aumentando um pouco o nível",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Dracule Mihawk",
+           "Sanji",
+           "Ryuma",
+           "Kuina"
+        ]
+      },
+      {
+        "bg": "https://wallpapercave.com/wp/wp1872437.jpg",
+        "image": "https://media.giphy.com/media/ob4ooyurcOTEA/giphy.gif",
+        "title": "Usopp foi o quarto membro da tripulação do Chapéu de Palha a demonstrar e usar uma forma de Haki. Qual foi o Haki que ele despertou?",
+        "description": "Essa é pra aquecer",
+        "answer": 1,
+        "alternatives": [
+          "Haoshoku Haki",
+          "Kenbunshoku Haki",
+          "Busoshoku Haki",
+          "Kami Haki"
+        ]
+      },
+      {
+        "bg": "https://cdn.wallpapersafari.com/97/13/4rG7QZ.jpg",
+        "image": "https://media.giphy.com/media/6WPM7EMUGaKkw/giphy.gif",
+        "title": "Qual é o sonho de Nami?",
+        "description": "Aumentando um pouco o nível",
+        "answer": 3,
+        "alternatives": [
+           "Ter muito dinheiro",
+           "Encontar o One Piece",
+           "Ser a mulher mais forte do mundo",
+           "Fazer um mapa do mundo inteiro"
         ]
       }
     ],

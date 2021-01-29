@@ -48,7 +48,7 @@ Widget.Content = styled.div`
     list-style: none;
     padding: 0;
   }
-  input {
+  /* input {
     width: 100%;
     border-radius: 5px;
     background: none;
@@ -58,29 +58,33 @@ Widget.Content = styled.div`
     margin-bottom: 15px;
     color: ${({ theme }) => theme.colors.contrastText}
     
-  }
-  .input-quiz-users {
+  } */
+  /* .input-quiz-users {
     margin-bottom: 0.5rem;
     background: #272a52;
+  } */
+`;
+
+Widget.Topic = styled.a`
+  outline: 0;
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.contrastText};
+  background-color: ${({ theme }) => `${theme.colors.primary}40`};
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  border-radius: ${({ theme }) => theme.borderRadius};
+  transition: .3s;
+  display: block;
+  
+  &:hover,
+  &:focus {
+    opacity: .5;
   }
-  button:disabled {   
-    background: #cccccc;    
-    color: #666666;      
+  &+input[type="radio"]:checked {
+    background-color: #bbb;
   }
-  button {
-    width: 100%;
-    background: ${({ theme }) => theme.colors.gitHubConerColor};
-    text-align: center;
-    text-decoration: none;
-    padding: 10px 0;
-    border-radius: 5px;
-    color: #fff;
-    border: none;
-    font-weight: bold;
-    /* border: 1px solid #999999; */
-    cursor: pointer;
-    transition: 0.3s;
-  }
+  
 `;
 
 export default Widget;
