@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-props-no-spreading */
+import React from 'react';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import IndexPage from '../src/components/IndexPage';
 import db from '../db.json';

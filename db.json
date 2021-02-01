@@ -1,12 +1,12 @@
 {
-    "bg": "https://images5.alphacoders.com/641/641999.jpg?resize=1536%2C1208&ssl=1",
+    "bg": "https://static.zerochan.net/ONE.PIECE.full.691826.jpg",
     "title": "Quiz CSS da Alura",
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
       {
         "bg": "https://www.themoviedb.org/t/p/original/npg6pCyEYcCS6Ok9fbiIdcA60lH.jpg",
         "image": "https://media.giphy.com/media/uvCxJCIdf1BcY/giphy.gif",
-        "title": "Quantos membros os Chapéu de Palha tem na tripulação na saga de Wano?",
+        "title": "Quantos membros os Chapéu de Palha tem na tripulação no começo da saga de Wano?",
         "description": "Essa é pra aquecer",
         "answer": 1,
         "alternatives": [
@@ -46,7 +46,7 @@
         "bg": "https://wallpapercave.com/wp/wp1872437.jpg",
         "image": "https://media.giphy.com/media/ob4ooyurcOTEA/giphy.gif",
         "title": "Usopp foi o quarto membro da tripulação do Chapéu de Palha a demonstrar e usar uma forma de Haki. Qual foi o Haki que ele despertou?",
-        "description": "Essa é pra aquecer",
+        "description": "Vamo ver se você sabe sobre Haki",
         "answer": 1,
         "alternatives": [
           "Haoshoku Haki",
@@ -58,8 +58,8 @@
       {
         "bg": "https://cdn.wallpapersafari.com/97/13/4rG7QZ.jpg",
         "image": "https://media.giphy.com/media/6WPM7EMUGaKkw/giphy.gif",
-        "title": "Qual é o sonho de Nami?",
-        "description": "Aumentando um pouco o nível",
+        "title": "Qual é o sonho da Nami?",
+        "description": "Você conhece os sonhos da tripulação",
         "answer": 3,
         "alternatives": [
            "Ter muito dinheiro",
@@ -67,10 +67,91 @@
            "Ser a mulher mais forte do mundo",
            "Fazer um mapa do mundo inteiro"
         ]
+      },
+      {
+        "bg": "https://a-static.besthdwallpaper.com/cozinheiro-do-pirata-de-sanji-vinsmoke-papel-de-parede-1920x1200-55920_6.jpg",
+        "image": "https://media.giphy.com/media/106DvEz2T0mHIY/giphy.gif",
+        "title": "Na tripulação dos chapeu de palha qual é a função de Sanji?",
+        "description": "Ele utiliza as mão para isso",
+        "answer": 2,
+        "alternatives": [
+           "Mulherengo",
+           "Capoerista",
+           "Cozinheiro",
+           "Garçon"
+        ]
+      },
+      {
+        "bg": "https://criticalhits.com.br/wp-content/uploads/2020/03/Robin.jpg",
+        "image": "https://media.giphy.com/media/3liTS9ybBTEK4/giphy.gif",
+        "title": "Robin tem o poder de replicar e brotar pedaços de seu corpo a partir da superfície de qualquer objeto ou coisa viva. Para conseguir esse poder qual Akuma no Mi ela comeu?",
+        "description": "Voce sabe os nomes das frutas",
+        "answer": 3,
+        "alternatives": [
+           "Bara Bara no Mi",
+           "Ope Ope no Mi",
+           "Gomu Gomu no Mi",
+           "Hana Hana no Mi"
+        ]
+      },
+      {
+        "bg": "https://cdn.wallpapersafari.com/77/38/bEx37D.jpeg",
+        "image": "https://media.giphy.com/media/AWDWvHGCfMLeM/giphy.gif",
+        "title": "Chopper é o médico da tripulação dos Chapéu de Palha, sendo o único a vir da Grand Line, de uma ilha chamada?",
+        "description": "Foi a terceira ilha na Grand Line visitada pelos Chapéu de Palha",
+        "answer": 2,
+        "alternatives": [
+           "Ilha Cactus",
+           "Ilha Nanimonai",
+           "Ilha Drum",
+           "Ilha Kyuka"
+        ]
+      },
+      {
+        "bg": "https://cutewallpaper.org/21/franky-wallpapers/Franky-One-Piece-14-Cool-Hd-Wallpaper-Animewp.com.jpg",
+        "image": "https://media.giphy.com/media/67s8C7oF1fSIDe1ib0/giphy.gif",
+        "title": "Qual é o bordão usado por Franky na maioria de suas falas?",
+        "description": "Se voce acertar vai ser bem...",
+        "answer": 2,
+        "alternatives": [
+           "Mega",
+           "Ultra",
+           "Super",
+           "Legal"
+        ]
+      },
+      {
+        "bg": "https://www.wallpaperflare.com/static/736/516/884/one-piece-brook-brooks-one-wallpaper.jpg",
+        "image": "https://64.media.tumblr.com/tumblr_m5gpxvyikH1r2q4pd.gif",
+        "title": "Brook canta-a na maioria das oportunidades que tem uma canção comumente cantada entre os piratas de antigamente. O objetivo da música é levantar o ânimo daqueles que a cantam. A música também é a favorita de Laboon. Qual é o nome dessa música?",
+        "description": "Vamos canta-la para acertar essa questão yohohoho...",
+        "answer": 1,
+        "alternatives": [
+           "Binks 'Cake",
+           "Binks 'Sake",
+           "Binks 'Make",
+           "Binks 'Lake"
+        ]
+      },
+      {
+        "bg": "https://anfreak.com.br/wp-content/uploads/2013/08/1_GoingMerry.png",
+        "image": "https://pa1.narvii.com/7593/16db5c6cf3e73bceed762a4e18589cc08e0948fbr1-500-268_hq.gif",
+        "title": "Qual foi o primeiro navio usado pelos chapeu de palha?",
+        "description": "Foi projetado por um empregado da mansão de Kaya",
+        "answer": 0,
+        "alternatives": [
+           "Going Merry",
+           "Thousand Sunny",
+           "Dreadnaught Sabre",
+           "Cooking George"
+        ]
       }
     ],
     "external": [
-      ""
+      "https://naruto-quiz.llofyy.vercel.app/",
+      "https://imersao-react.palomacorreia.vercel.app/",
+      "https://meta-quiz-imersao-react.markkop.vercel.app/",
+      "https://imersao-react-next-js.thaislsilveira.vercel.app/ "
     ],
     "theme": {
       "colors": {
@@ -81,7 +162,10 @@
         "wrong": "#FF5722",
         "success": "#4CAF50",
         "gitHubConerBg": "#ffc107",
-        "gitHubConerColor": "#d84315"
+        "gitHubConerColor": "#d84315",
+        "imageWrongQuestions": "https://media.giphy.com/media/Ai8iZqHx2i0fK/giphy.gif",
+        "imageCorrectQuestions": "https://media.giphy.com/media/M7Mv92YnAccfK/giphy.gif",
+        "imageAnyCorrectQuestions": "https://media.giphy.com/media/vfTWTF1OFO4ik/giphy.gif"
       },
       "borderRadius": "4px"
     }

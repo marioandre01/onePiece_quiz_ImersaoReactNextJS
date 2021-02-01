@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Widget = styled.div`
-  /* margin-top: 24px; */
+  margin-top: 24px;
   margin-bottom: 24px;
   border: 1px solid ${({ theme }) => theme.colors.contrastText};
   background-color: ${({ theme }) => theme.colors.mainBg};
@@ -37,6 +37,8 @@ Widget.Header = styled.header`
 `;
 
 Widget.Content = styled.div`
+  /* display: flex;
+  flex-direction: column; */
   padding: 24px 32px 32px 32px;
   & > *:first-child {
     margin-top: 0;
@@ -47,6 +49,13 @@ Widget.Content = styled.div`
   ul {
     list-style: none;
     padding: 0;
+  }
+  .titulo-quiz {
+    text-align: center;
+    /* background: #fff; */
+  }
+  .texto-titulo-quiz {
+    text-align: center;
   }
 `;
 
