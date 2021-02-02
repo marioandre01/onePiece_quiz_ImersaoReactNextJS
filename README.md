@@ -1,78 +1,107 @@
-# Example app with styled-components
+[![Author](https://img.shields.io/badge/author-marioandre01-61dafb?style=flat-square)](https://github.com/marioandre01)
+[![Languages](https://img.shields.io/github/languages/count/marioandre01/onePiece_quiz_ImersaoReactNextJS?color=%2361dafb&style=flat-square)](#)
+[![Stars](https://img.shields.io/github/stars/marioandre01/onePiece_quiz_ImersaoReactNextJS?color=61dafb&style=flat-square)](https://github.com/marioandre01/onePiece_quiz_ImersaoReactNextJS/stargazers)
+[![Forks](https://img.shields.io/github/forks/marioandre01/onePiece_quiz_ImersaoReactNextJS?color=%2361dafb&style=flat-square)](https://github.com/marioandre01/onePiece_quiz_ImersaoReactNextJS/network/members)
+[![Contributors](https://img.shields.io/github/contributors/marioandre01/onePiece_quiz_ImersaoReactNextJS?color=61dafb&style=flat-square)](https://github.com/marioandre01/onePiece_quiz_ImersaoReactNextJS/graphs/contributors)
+[![Licence](https://img.shields.io/github/license/marioandre01/onePiece_quiz_ImersaoReactNextJS?color=%2361dafb&style=flat-square)](https://github.com/marioandre01/onePiece_quiz_ImersaoReactNextJS/blob/master/LICENCE.md)
 
-This example features how you use a different styling solution than [styled-jsx](https://github.com/zeit/styled-jsx) that also supports universal styles. That means we can serve the required styles for the first render within the HTML and then load the rest in the client. In this case we are using [styled-components](https://github.com/styled-components/styled-components).
 
-For this purpose we are extending the `<Document />` and injecting the server side rendered styles into the `<head>`, and also adding the `babel-plugin-styled-components` (which is required for server side rendering). Additionally we set up a global [theme](https://www.styled-components.com/docs/advanced#theming) for styled-components using NextJS custom [`<App>`](https://nextjs.org/docs/advanced-features/custom-app) component.
+<h1 align="center">
+    onePiece_quiz_ImersaoReactNextJS
+</h1>
 
-## Deploy your own
+<p align="center"> 
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-executando-a-aplicação">Executando a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#gear-contribuição">Contribuição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+## 💻 Projeto
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-styled-components&project-name=with-styled-components&repository-name=with-styled-components)
+Durante os dias 25 a 29 de Janeiro ocorreu a [IMERSÃO REACT NEXT.JS](https://www.alura.com.br/imersao-react-next-js) oferecido pela [Alura](https://www.alura.com.br/) e orientado pelos instrutores Mario Souto Silva, Juliana Amoasei e Paulo Silveira. Nela foi proposto desenvolver uma aplicação React com Next.JS e colocar no ar de forma gratuita através da plataforma da [Vercel](https://vercel.com). A aplicação escolhida foi um Quiz onde o tema das perguntas era escolhido pelo desenvolvedor. Para esse Quiz o tema escolhido foi o anime “One Piece”.
 
-## How to use
+O resultado da aplicação pode ser acessado através da seguinte URL: [https://onepiece-quiz-imersao-react-next-js.marioandre01.vercel.app/](https://onepiece-quiz-imersao-react-next-js.marioandre01.vercel.app/)
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+
+## 📋 Tecnologias
+
+O projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML
+- CSS
+- Javascript
+- [ReactJS](https://pt-br.reactjs.org/)
+- [NextJS](https://nextjs.org/)
+- [Styled Components](https://styled-components.com/)
+- prop-types
+- State
+- Linter
+- [Animação com Lottie](https://lottiefiles.com/featured)
+- [Animações com Framer Motion](https://www.framer.com/motion/)
+- Responsividade
+
+## 🎨 Layout
+
+### 💻 Web 
+
+<p align="center">
+  <img alt="covid19_react_page_web" title="covid19_react_page_web" src="img/onePiece_quiz_tela_desktop.png" width="800px">
+</p>
+
+### 📱 Mobile 
+<p align="center">
+  <img alt="Happy Web" title="Happy Web" src="img/onePiece_quiz_tela_mobile.png" width="250px">
+</p>
+
+## 💻 Executando a aplicação
+
+### :octocat: Clonando o Repositório
 
 ```bash
-npx create-next-app --example with-styled-components with-styled-components-app
-# or
-yarn create next-app --example with-styled-components with-styled-components-app
+$ git clone https://github.com/marioandre01/onePiece_quiz_ImersaoReactNextJS.git
+
+# entre na pasta do projeto
+$ cd onePiece_quiz_ImersaoReactNextJS
+```
+### 💻 Executando a aplicação
+
+Instale as dependências
+
+```bash
+
+$ yarn install
+
+# ou pelo npm
+$ npm install
+
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Execute a aplicação
 
-### Try it on CodeSandbox
+```bash
 
-[Open this example on CodeSandbox](https://codesandbox.io/s/github/vercel/next.js/tree/canary/examples/with-styled-components)
+$ yarn dev
 
-### Notes
+# ou pelo npm
+$ npm dev
 
-When wrapping a [Link](https://nextjs.org/docs/api-reference/next/link) from `next/link` within a styled-component, the [as](https://styled-components.com/docs/api#as-polymorphic-prop) prop provided by `styled` will collide with the Link's `as` prop and cause styled-components to throw an `Invalid tag` error. To avoid this, you can either use the recommended [forwardedAs](https://styled-components.com/docs/api#forwardedas-prop) prop from styled-components or use a different named prop to pass to a `styled` Link.
-
-<details>
-<summary>Click to expand workaround example</summary>
-<br />
-
-**components/StyledLink.js**
-
-```javascript
-import Link from 'next/link'
-import styled from 'styled-components'
-
-const StyledLink = ({ as, children, className, href }) => (
-  <Link href={href} as={as} passHref>
-    <a className={className}>{children}</a>
-  </Link>
-)
-
-export default styled(StyledLink)`
-  color: #0075e0;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
-
-  &:hover {
-    color: #40a9ff;
-  }
-
-  &:focus {
-    color: #40a9ff;
-    outline: none;
-    border: 0;
-  }
-`
 ```
+## :gear: Contribuição
 
-**pages/index.js**
+Para contribuir com esse projeto faça os seguintes passos:
 
-```javascript
-import StyledLink from '../components/StyledLink'
+- Faça um fork desse repositório;
+- Crie uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
 
-export default () => (
-  <StyledLink href="/post/[pid]" forwardedAs="/post/abc">
-    First post
-  </StyledLink>
-)
-```
+## :memo: Licença
 
-</details>
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
+
+
+
