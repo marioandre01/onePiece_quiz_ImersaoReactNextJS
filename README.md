@@ -86,7 +86,7 @@ Execute a aplicação
 $ yarn dev
 
 # ou pelo npm
-$ npm dev
+$ npm run dev
 
 ```
 ## :gear: Contribuição
